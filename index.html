@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML HW 05</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contact-page flex">
+        <div class="img-container">
+            <img src="./assets/images/img-container.png" alt="img-container">
+        </div>
+        <main class="flex">
+            <div class="content">
+                <div class="heading">
+                    <h1>Let's level up your <br /> brand, together</h1>
+                    <p>You can reach us anytime via <span>hi@untitledui.com</span></p>
+                </div>
+                <form>
+                    <label for="username">Name</label> <br>
+                    <input type="text" id="username" name="username" placeholder="Your name"> <br>
+                    <label for="useremail">Email</label> <br>
+                    <input type="email" name="useremail" id="usermail" placeholder="you@company.com"> <br>
+                    <label for="phonenumber">Phone Number</label> <br>
+                    <div class="input-phone-number flex">
+                        <div class="role-number">US</div>
+                        <i class="fa-solid fa-angle-down"></i>
+                        <input type="number" name="phonenumber" id="phonenumber" placeholder="+1 (555) 000-0000">
+                    </div>
+                    <label for="helptext">How can we help?</label> <br>
+                    <textarea name="helptext" id="helptext" rows="5" placeholder="Tell us a little alout the project..."></textarea> <br>
+                    <label for="services">Services</label> <br>
+                    <div class="input-checkbox">
+                        <div class="selection">
+                            <input type="checkbox" name="selection1" id="selection1">
+                            <label for="selection1">Website design</label>
+                        </div>
+                        <div class="selection">
+                            <input type="checkbox" name="selection2" id="selection2">
+                            <label for="selection2">Content creation</label>
+                        </div>
+                        <div class="selection">
+                            <input type="checkbox" name="selection3" id="selection3">
+                            <label for="selection3">UX Design</label>
+                        </div>
+                        <div class="selection">
+                            <input type="checkbox" name="selection4" id="selection4">
+                            <label for="selection4">Strategy & consulting</label>
+                        </div>
+                        <div class="selection">
+                            <input type="checkbox" name="selection5" id="selection5">
+                            <label for="selection5">User research</label>
+                        </div>
+                        <div class="selection">
+                            <input type="checkbox" name="selection6" id="selection6">
+                            <label for="selection6">Other</label>
+                        </div>
+                    </div>
+                    <button type="submit">Get started</button>   
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

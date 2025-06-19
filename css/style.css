@@ -86,7 +86,6 @@ input {
 }
 
 .input-phone-number {
-    justify-content: space-between;
     align-items: center;
     border: 1px solid rgba(208,213,221,1);
     border-radius: 8px;
@@ -96,12 +95,15 @@ input {
 
 .input-phone-number i {
     scale: 150%;
+    margin-top: 2px;
 }
 
 .role-number {
     font-size: 1.6rem;
     color: #101828;
+    margin-right: 5px;
 }
+
 
 #phonenumber {
     border: none;
